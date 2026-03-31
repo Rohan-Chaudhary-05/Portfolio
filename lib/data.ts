@@ -5,7 +5,7 @@ export const personal = {
   about: `I am a Data Science and Analytics student at the University of Westminster, currently completing a placement year at Roche where I have built AI-powered automation tools, developed data interfaces, and engineered workflows that reduced processing times from hours to minutes. I am passionate about applying technology responsibly to solve real-world problems — whether in healthcare, education, or beyond.`,
   email: "Rohan.sc.33@gmail.com",
   linkedin: "https://linkedin.com/in/rohan-chaudhary-",
-  github: "https://github.com/rohanchaudhary",
+  github: "https://github.com/Rohan-Chaudhary-05",
 };
 
 export type Project = {
