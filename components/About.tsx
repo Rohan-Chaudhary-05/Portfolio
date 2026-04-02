@@ -15,7 +15,7 @@ export default function About() {
                 About
               </span>
               <h2 className="mt-3 text-3xl sm:text-4xl font-bold text-text-primary tracking-tight leading-snug">
-                A bit about me
+                About
               </h2>
             </div>
           </FadeIn>

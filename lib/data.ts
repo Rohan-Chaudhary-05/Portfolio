@@ -28,6 +28,12 @@ export const projects: Project[] = [
       "An AI-powered platform I am building to help UK STEM students find placements, internships and graduate schemes, and connect with early-stage startups.",
     tags: ["AI", "EdTech", "Founder", "In Progress"],
   },
+  {
+    title: "Tesla Market & Strategy Analysis",
+    description:
+      "An independent case study analysing Tesla's market position, business strategy, and competitive landscape using data-driven insights.",
+    tags: ["Data Analysis", "Business Strategy", "Case Study", "EV Industry"],
+  },
 ];
 
 export type TimelineEntry = {
@@ -58,10 +64,26 @@ export const timeline: TimelineEntry[] = [
   {
     type: "work",
     title: "Data Science Placement Student",
-    organisation: "Roche — Welwyn Garden City, UK",
+    organisation: "Roche",
     period: "Aug 2025 – Aug 2026",
     description:
       "Built an OCR automation tool reducing processing time from hours to 2–3 minutes. Improved data retrieval performance by ~80%. Designed and deployed a fine-tuned LLM hosted on HuggingFace. Configured CI/CD pipelines. Collaborated with international teams across Switzerland, Canada, China and India.",
+  },
+  {
+    type: "education",
+    title: "BSc Data Science & Analytics",
+    organisation: "University of Westminster",
+    period: "Sep 2023 – Jun 2027",
+    description:
+      "Predicted 1st. Modules include Machine Learning, Data Engineering, Software Development, Statistics and Cybersecurity. Led a data science project with real-world charity Resole. Built supervised ML models for cancer patient mortality prediction achieving over 85% accuracy.",
+  },
+  {
+    type: "work",
+    title: "Sales Advisor",
+    organisation: "Decathlon UK",
+    period: "Mar 2023 – May 2025",
+    description:
+      "Developed communication and stakeholder management skills in a fast-paced customer-facing environment.",
   },
   {
     type: "programme",
@@ -73,18 +95,10 @@ export const timeline: TimelineEntry[] = [
   },
   {
     type: "education",
-    title: "BSc Data Science & Analytics with Industrial Placement",
-    organisation: "University of Westminster",
-    period: "Sep 2023 – Jun 2027",
-    description:
-      "Predicted 1st. Modules include Machine Learning, Data Engineering, Software Development, Statistics and Cybersecurity. Led a data science project with real-world charity Resole. Built supervised ML models for cancer patient mortality prediction achieving over 85% accuracy.",
-  },
-  {
-    type: "education",
     title: "A-Levels",
     organisation: "Chingford Foundation Sixth Form",
     period: "Sep 2021 – Jun 2023",
-    description: "Mathematics (B), Physics (B), Further Mathematics (C).",
+    description: "Mathematics, Physics, Further Mathematics.",
   },
   {
     type: "programme",
@@ -92,15 +106,15 @@ export const timeline: TimelineEntry[] = [
     organisation: "UCL",
     period: "2021",
     description:
-      "Selected as 1 of 2 students from a cohort of over 150 for a programme simulating university-level study across sustainability, science and technology with a focus on Japanese culture and innovation.",
+      "Selected as 1 of 2 students from a cohort of over 150 to visit RCAST at the University of Tokyo (visit cancelled due to pandemic). A one-month programme simulating university-level study across sustainability, science and technology with a focus on Japanese culture and innovation.",
   },
   {
-    type: "work",
-    title: "Sales Advisor",
-    organisation: "Decathlon UK",
-    period: "Mar 2023 – May 2025",
+    type: "programme",
+    title: "Volunteer",
+    organisation: "Barnardo's Children's Charity",
+    period: "Sep 2021 – Dec 2021",
     description:
-      "Developed communication and stakeholder management skills in a fast-paced customer-facing environment.",
+      "Volunteered at Barnardo's Children's Charity, supporting young people in the local community.",
   },
   {
     type: "education",
@@ -124,7 +138,7 @@ export const skillGroups: SkillGroup[] = [
   },
   {
     category: "Frameworks & Platforms",
-    skills: ["R Shiny", "Streamlit", "HuggingFace", "Power BI", "Next.js"],
+    skills: ["R Shiny", "Streamlit", "HuggingFace", "Power BI"],
   },
   {
     category: "AI & ML",
@@ -132,6 +146,6 @@ export const skillGroups: SkillGroup[] = [
   },
   {
     category: "Other",
-    skills: ["CI/CD Pipelines", "OCR Automation", "Data Visualisation", "Agile"],
+    skills: ["CI/CD Pipelines", "OCR Automation", "Data Visualisation"],
   },
 ];
