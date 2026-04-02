@@ -6,7 +6,7 @@ const typeConfig: Record<
   { dot: string; badge: string; label: string }
 > = {
   work: {
-    dot: "bg-accent shadow-[0_0_8px_rgba(99,102,241,0.7)]",
+    dot: "bg-accent shadow-[0_0_8px_rgba(6,182,212,0.7)]",
     badge: "bg-accent/10 text-accent border border-accent/20",
     label: "Work",
   },

@@ -63,7 +63,7 @@ export default function Contact() {
             <div className="flex flex-col sm:flex-row gap-4">
               <a
                 href={`mailto:${personal.email}`}
-                className="group flex items-center gap-3 px-6 py-4 rounded-2xl border border-border bg-card/60 hover:border-accent/35 hover:shadow-[0_0_20px_rgba(99,102,241,0.12)] transition-all duration-300"
+                className="group flex items-center gap-3 px-6 py-4 rounded-2xl border border-border bg-card/60 hover:border-accent/35 hover:shadow-[0_0_20px_rgba(6,182,212,0.12)] transition-all duration-300"
               >
                 <span className="text-text-muted group-hover:text-accent transition-colors">
                   <MailIcon />
@@ -78,7 +78,7 @@ export default function Contact() {
                 href={personal.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group flex items-center gap-3 px-6 py-4 rounded-2xl border border-border bg-card/60 hover:border-accent/35 hover:shadow-[0_0_20px_rgba(99,102,241,0.12)] transition-all duration-300"
+                className="group flex items-center gap-3 px-6 py-4 rounded-2xl border border-border bg-card/60 hover:border-accent/35 hover:shadow-[0_0_20px_rgba(6,182,212,0.12)] transition-all duration-300"
               >
                 <span className="text-text-muted group-hover:text-accent transition-colors">
                   <LinkedInIcon />
@@ -93,7 +93,7 @@ export default function Contact() {
                 href={personal.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group flex items-center gap-3 px-6 py-4 rounded-2xl border border-border bg-card/60 hover:border-accent/35 hover:shadow-[0_0_20px_rgba(99,102,241,0.12)] transition-all duration-300"
+                className="group flex items-center gap-3 px-6 py-4 rounded-2xl border border-border bg-card/60 hover:border-accent/35 hover:shadow-[0_0_20px_rgba(6,182,212,0.12)] transition-all duration-300"
               >
                 <span className="text-text-muted group-hover:text-accent transition-colors">
                   <GitHubIcon />

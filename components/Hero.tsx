@@ -28,17 +28,37 @@ export default function Hero() {
       <div className="absolute inset-0 flex items-center justify-start pointer-events-none -z-10">
         <div
           className="w-[700px] h-[300px] rounded-full blur-[120px]"
-          style={{ background: "rgba(99,102,241,0.08)" }}
+          style={{ background: "rgba(6,182,212,0.08)" }}
         />
       </div>
 
       {/* Ambient blobs */}
       <div className="absolute top-[-8%] right-[-4%] w-[480px] h-[480px] rounded-full blur-[130px] pointer-events-none -z-10"
-        style={{ background: "rgba(99,102,241,0.055)" }} />
+        style={{ background: "rgba(6,182,212,0.055)" }} />
       <div className="absolute bottom-[-4%] left-[-6%] w-[360px] h-[360px] rounded-full blur-[110px] pointer-events-none -z-10"
-        style={{ background: "rgba(99,102,241,0.04)" }} />
+        style={{ background: "rgba(6,182,212,0.04)" }} />
 
       <div className="max-w-3xl w-full">
+        {/* Avatar */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.85 }}
+          animate={visible ? { opacity: 1, scale: 1 } : {}}
+          transition={{ duration: 0.5, delay: 0.05 }}
+          className="mb-6"
+        >
+          <div
+            className="w-20 h-20 rounded-full border-2 border-accent/40 flex items-center justify-center"
+            style={{ background: "linear-gradient(135deg, rgba(6,182,212,0.25) 0%, rgba(6,182,212,0.08) 100%)" }}
+          >
+            <span
+              className="text-2xl font-bold text-accent"
+              style={{ fontFamily: "var(--font-syne), system-ui, sans-serif" }}
+            >
+              RC
+            </span>
+          </div>
+        </motion.div>
+
         {/* Availability badge */}
         <motion.div
           initial={{ opacity: 0, y: 12 }}
@@ -62,14 +82,15 @@ export default function Hero() {
           animate={visible ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.65, delay: 0.2, ease: [0.21, 0.47, 0.32, 0.98] }}
           className="tracking-tight text-text-primary leading-[1.06] mb-5"
-          style={{ fontSize: "clamp(3.8rem, 8vw, 6rem)" }}
+          style={{ fontSize: "clamp(3.04rem, 6.4vw, 4.8rem)" }}
         >
           {personal.name}
         </motion.h1>
 
         {/* Tagline — typewriter */}
         <motion.p
-          className="text-xl sm:text-2xl text-text-secondary font-medium mb-6"
+          className="text-text-secondary font-medium mb-6"
+          style={{ fontSize: "clamp(1.625rem, 3vw, 1.95rem)" }}
           initial="hidden"
           animate={visible ? "visible" : "hidden"}
           variants={{
@@ -109,16 +130,16 @@ export default function Hero() {
           className="flex flex-wrap gap-4"
         >
           <button
-            onClick={() => document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" })}
-            className="px-7 py-3 rounded-full border border-accent text-accent text-sm font-medium hover:bg-accent hover:text-white hover:shadow-[0_0_24px_rgba(99,102,241,0.45)] transition-all duration-300"
-          >
-            View Work
-          </button>
-          <button
             onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}
-            className="px-7 py-3 rounded-full border border-border text-text-secondary text-sm font-medium hover:border-accent/50 hover:text-text-primary hover:shadow-[0_0_16px_rgba(99,102,241,0.2)] transition-all duration-300"
+            className="px-7 py-3 rounded-full bg-accent text-white text-sm font-semibold hover:bg-accent-hover hover:shadow-[0_0_28px_rgba(6,182,212,0.45)] transition-all duration-300"
           >
             Get In Touch
+          </button>
+          <button
+            onClick={() => {}}
+            className="px-7 py-3 rounded-full border border-border text-text-secondary text-sm font-medium hover:border-accent/50 hover:text-text-primary hover:shadow-[0_0_16px_rgba(6,182,212,0.2)] transition-all duration-300"
+          >
+            Download CV
           </button>
         </motion.div>
       </div>

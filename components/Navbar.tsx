@@ -78,7 +78,7 @@ export default function Navbar() {
                   onClick={() => smoothScrollTo(link.id)}
                   className={`text-sm transition-all duration-200 ${
                     isActive
-                      ? "text-accent drop-shadow-[0_0_8px_rgba(99,102,241,0.7)]"
+                      ? "text-accent drop-shadow-[0_0_8px_rgba(6,182,212,0.7)]"
                       : "text-text-secondary hover:text-text-primary"
                   }`}
                 >
@@ -90,10 +90,26 @@ export default function Navbar() {
           <li>
             <button
               onClick={() => smoothScrollTo("contact")}
-              className="text-sm px-4 py-2 rounded-full border border-accent/50 text-accent hover:bg-accent hover:text-white hover:shadow-[0_0_16px_rgba(99,102,241,0.4)] transition-all duration-300"
+              className="text-sm px-4 py-2 rounded-full border border-accent/50 text-accent hover:bg-accent hover:text-white hover:shadow-[0_0_16px_rgba(6,182,212,0.4)] transition-all duration-300"
             >
               Hire me
             </button>
+          </li>
+          <li>
+            <a
+              href="https://linkedin.com/in/rohan-chaudhary-"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+              className="flex items-center text-text-secondary hover:text-accent transition-colors duration-200"
+            >
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                <rect x="2" y="9" width="4" height="12" />
+                <circle cx="4" cy="4" r="2" />
+              </svg>
+            </a>
           </li>
         </ul>
 

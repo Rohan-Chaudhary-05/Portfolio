@@ -19,7 +19,7 @@ export default function Projects() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {projects.map((project, i) => (
             <FadeIn key={project.title} delay={i * 90}>
-              <article className="group h-full rounded-2xl p-6 flex flex-col border border-[rgba(99,102,241,0.12)] bg-[rgba(21,21,26,0.65)] backdrop-blur-sm hover:border-[rgba(99,102,241,0.35)] hover:-translate-y-1 hover:shadow-[0_8px_32px_rgba(99,102,241,0.13)] transition-all duration-300">
+              <article className="group h-full rounded-2xl p-6 flex flex-col border border-[rgba(6,182,212,0.12)] bg-[rgba(21,21,26,0.65)] backdrop-blur-sm hover:border-[rgba(6,182,212,0.35)] hover:-translate-y-1 hover:shadow-[0_8px_32px_rgba(6,182,212,0.13)] transition-all duration-300">
                 <div className="flex-1">
                   <h3 className="font-semibold text-text-primary text-base mb-2 group-hover:text-accent transition-colors duration-200">
                     {project.title}
