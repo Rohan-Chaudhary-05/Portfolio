@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { Download } from "lucide-react";
 import { personal } from "@/lib/data";
@@ -118,7 +119,7 @@ export default function Hero() {
               Get In Touch
             </button>
             <a
-              href="/rohan-chaudhary-cv.pdf"
+              href="/Rohan_Chaudhary_CV.pdf"
               download
               className="inline-flex items-center gap-2 px-7 py-3 rounded-full border border-border text-text-secondary text-sm font-medium hover:border-accent/50 hover:text-text-primary hover:shadow-[0_0_16px_rgba(6,182,212,0.2)] transition-all duration-300"
             >
@@ -135,16 +136,15 @@ export default function Hero() {
           transition={{ duration: 0.5, delay: 0.15 }}
           className="flex-shrink-0 hidden md:flex items-center justify-center"
         >
-          <div
-            className="w-80 h-80 rounded-full border-2 border-accent/40 flex items-center justify-center"
-            style={{ background: "linear-gradient(135deg, rgba(6,182,212,0.25) 0%, rgba(6,182,212,0.08) 100%)" }}
-          >
-            <span
-              className="text-7xl font-bold text-accent"
-              style={{ fontFamily: "var(--font-syne), system-ui, sans-serif" }}
-            >
-              RC
-            </span>
+          <div className="w-80 h-80 rounded-full border-2 border-accent/40 overflow-hidden">
+            <Image
+              src="/Pro_Image.jpeg"
+              alt="Rohan Chaudhary"
+              width={320}
+              height={320}
+              className="object-cover w-full h-full"
+              priority
+            />
           </div>
         </motion.div>
       </div>
