@@ -113,7 +113,6 @@ export default function Contact() {
             <p className="text-sm text-text-muted">
               &copy; {new Date().getFullYear()} {personal.name}. All rights reserved.
             </p>
-            <p className="text-sm text-text-muted">Built with Next.js &amp; Tailwind CSS</p>
           </div>
         </FadeIn>
       </div>
