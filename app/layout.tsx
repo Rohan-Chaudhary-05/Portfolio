@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Syne, Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 // Disable browser scroll restoration at module load time (client-side)
@@ -42,7 +43,10 @@ export default function RootLayout({
             subsequent client-side navigations. */}
         <script dangerouslySetInnerHTML={{ __html: "history.scrollRestoration='manual';" }} />
       </head>
-      <body className="min-h-screen antialiased">{children}</body>
+      <body className="min-h-screen antialiased">
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
