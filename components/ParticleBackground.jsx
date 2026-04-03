@@ -36,7 +36,7 @@ export default function ParticleBackground() {
           const dist = Math.sqrt(dx * dx + dy * dy);
 
           if (dist < MAX_DIST) {
-            const opacity = (1 - dist / MAX_DIST) * 0.12;
+            const opacity = (1 - dist / MAX_DIST) * 0.156;
             ctx.beginPath();
             ctx.strokeStyle = `rgba(255, 255, 255, ${opacity})`;
             ctx.lineWidth = 0.5;
@@ -51,7 +51,7 @@ export default function ParticleBackground() {
       for (const p of particles) {
         ctx.beginPath();
         ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
-        ctx.fillStyle = "rgba(255, 255, 255, 0.45)";
+        ctx.fillStyle = "rgba(255, 255, 255, 0.585)";
         ctx.fill();
       }
     }
