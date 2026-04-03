@@ -10,8 +10,8 @@
   --color-card: #15151a;
   --color-border: #252530;
   --color-text-primary: #f0f0f0;
-  --color-text-secondary: #9898b0;
-  --color-text-muted: #8080a0;
+  --color-text-secondary: #b0b0c8;
+  --color-text-muted: #9898b8;
 
   /* Fonts */
   --font-heading: var(--font-syne);
