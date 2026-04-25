@@ -1,8 +1,8 @@
 export const personal = {
   name: "Rohan Chaudhary",
   tagline: "Co-Founder & AI Builder",
-  bio: "Shipping production AI at Roche. Co-founding Stoneset.ai. Building with purpose.",
-  about: `At Roche, I built AI systems that reduced hours-long workflows to under three minutes and shipped them into production. Now co-founding Stoneset.ai — leading product, strategy, and operations.\n\nI build with a clear outcome in mind. Every decision — technical or strategic — traces back to a specific result. Speed matters, but purpose comes first.`,
+  bio: "",
+  about: `I spent my placement year at Roche building AI tools that actually got used — OCR automation, a fine-tuned LLM, data pipelines that replaced manual processes people had been living with for years.\n\nNow I'm co-founding Stoneset.ai, a compliance tool for the EU AI Act. I run product and operations. We're early and building fast.`,
   email: "Rohan.sc.33@gmail.com",
   linkedin: "https://linkedin.com/in/rohan-chaudhary-",
   github: "https://github.com/Rohan-Chaudhary-05",
@@ -19,8 +19,8 @@ export const projects: Project[] = [
   {
     title: "Stoneset.ai",
     description:
-      "Co-Founder & COO. Building the company from zero — product, strategy, and operations. Translating AI capability into something people actually use.",
-    tags: ["AI", "Co-Founder", "COO", "In Progress"],
+      "Co-Founder & COO. Stoneset classifies AI systems against the EU AI Act — deterministically, with every decision traceable to a specific article, paragraph, and annex. No LLM guesswork. I run product and operations.",
+    tags: ["RegTech", "EU AI Act", "Co-Founder", "COO"],
   },
   {
     title: "AI MCED Chatbot",

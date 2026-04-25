@@ -30,9 +30,8 @@ export default function About() {
               ))}
 
               {/* Quick facts */}
-              <div className="mt-8 pt-8 border-t border-border grid sm:grid-cols-3 gap-6">
+              <div className="mt-8 pt-8 border-t border-border grid sm:grid-cols-2 gap-6">
                 {[
-                  { label: "Performance gains shipped at Roche", value: "80%" },
                   { label: "Co-founded", value: "Stoneset.ai" },
                   { label: "Research publication", value: "In progress" },
                 ].map((stat) => (

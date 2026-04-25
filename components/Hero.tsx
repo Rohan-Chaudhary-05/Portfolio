@@ -96,14 +96,16 @@ export default function Hero() {
           </motion.p>
 
           {/* Bio */}
-          <motion.p
-            initial={{ opacity: 0, y: 16 }}
-            animate={visible ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.6, delay: 0.9, ease: [0.21, 0.47, 0.32, 0.98] }}
-            className="text-base sm:text-lg text-text-muted leading-relaxed max-w-xl mb-10"
-          >
-            {personal.bio}
-          </motion.p>
+          {personal.bio && (
+            <motion.p
+              initial={{ opacity: 0, y: 16 }}
+              animate={visible ? { opacity: 1, y: 0 } : {}}
+              transition={{ duration: 0.6, delay: 0.9, ease: [0.21, 0.47, 0.32, 0.98] }}
+              className="text-base sm:text-lg text-text-muted leading-relaxed max-w-xl mb-10"
+            >
+              {personal.bio}
+            </motion.p>
+          )}
 
           {/* CTAs */}
           <motion.div
