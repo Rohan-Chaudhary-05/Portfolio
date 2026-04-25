@@ -34,7 +34,7 @@ export default function About() {
                 {[
                   { label: "Performance gains shipped at Roche", value: "80%" },
                   { label: "Co-founded", value: "Stoneset.ai" },
-                  { label: "Research submitted to", value: "Imperial · ASCO · ESMO" },
+                  { label: "Research publication", value: "In progress" },
                 ].map((stat) => (
                   <div key={stat.label}>
                     <p className="text-2xl font-bold text-text-primary">{stat.value}</p>

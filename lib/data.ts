@@ -25,7 +25,7 @@ export const projects: Project[] = [
   {
     title: "AI MCED Chatbot",
     description:
-      "Fine-tuned an LLM at Roche for multi-cancer early detection. Authored a research abstract on a novel AI evaluation approach — submitted to Imperial College London, ASCO, and ESMO.",
+      "Fine-tuned an LLM at Roche for multi-cancer early detection. Authoring a research publication on a novel AI evaluation approach for MCED.",
     tags: ["Python", "LLMs", "HuggingFace", "Fine-tuning", "Healthcare"],
   },
   {
