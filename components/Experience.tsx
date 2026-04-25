@@ -31,10 +31,10 @@ export default function Experience() {
           <FadeIn direction="left">
             <div className="sticky top-24">
               <span className="text-xs font-medium tracking-widest text-accent uppercase">
-                Journey
+                Background
               </span>
               <h2 className="mt-3 text-3xl sm:text-4xl font-bold text-text-primary tracking-tight leading-snug">
-                Experience &amp; Education
+                Work &amp; Education
               </h2>
 
               {/* Legend */}

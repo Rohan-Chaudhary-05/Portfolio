@@ -8,10 +8,10 @@ export default function Projects() {
         <FadeIn>
           <div className="mb-14">
             <span className="text-xs font-medium tracking-widest text-accent uppercase">
-              Work
+              Building
             </span>
             <h2 className="mt-3 text-3xl sm:text-4xl font-bold text-text-primary tracking-tight">
-              Selected Projects
+              What I ship
             </h2>
           </div>
         </FadeIn>

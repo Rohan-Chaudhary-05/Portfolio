@@ -52,10 +52,10 @@ export default function Hero() {
           >
             <span className="inline-flex items-center gap-2.5 text-sm text-text-secondary border border-border rounded-full px-3.5 py-1.5 bg-card/60 backdrop-blur-sm">
               <span className="relative flex h-2 w-2">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-60" />
-                <span className="relative inline-flex rounded-full h-2 w-2 bg-green-400" />
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent opacity-60" />
+                <span className="relative inline-flex rounded-full h-2 w-2 bg-accent" />
               </span>
-              Available from September 2026
+              Currently building
             </span>
           </motion.div>
 
@@ -113,10 +113,10 @@ export default function Hero() {
             className="flex flex-wrap gap-4"
           >
             <button
-              onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}
+              onClick={() => document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" })}
               className="px-7 py-3 rounded-full bg-accent text-white text-sm font-semibold hover:bg-accent-hover hover:shadow-[0_0_28px_rgba(6,182,212,0.45)] transition-all duration-300"
             >
-              Get In Touch
+              See what I&apos;m building
             </button>
             <a
               href="/Rohan_Chaudhary_CV.pdf"

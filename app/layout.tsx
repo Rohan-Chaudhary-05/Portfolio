@@ -20,9 +20,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Rohan Chaudhary — Data Scientist & AI Builder",
+  title: "Rohan Chaudhary — Founder & AI Builder",
   description:
-    "BSc Data Science & Analytics student at the University of Westminster, on placement at Roche building AI-powered tools at the intersection of data science and healthcare.",
+    "Building AI products from London. Shipping production ML at Roche; founding PlacementOS to fix how UK students break into tech.",
 };
 
 export default function RootLayout({

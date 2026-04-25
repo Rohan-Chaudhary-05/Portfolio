@@ -4,10 +4,10 @@ import { useState, useEffect } from "react";
 import { personal } from "@/lib/data";
 
 const navLinks = [
+  { label: "Building", href: "#projects", id: "projects" },
   { label: "About", href: "#about", id: "about" },
-  { label: "Projects", href: "#projects", id: "projects" },
-  { label: "Experience", href: "#experience", id: "experience" },
-  { label: "Skills", href: "#skills", id: "skills" },
+  { label: "Background", href: "#experience", id: "experience" },
+  { label: "Stack", href: "#skills", id: "skills" },
   { label: "Contact", href: "#contact", id: "contact" },
 ];
 
@@ -92,7 +92,7 @@ export default function Navbar() {
               onClick={() => smoothScrollTo("contact")}
               className="text-sm px-4 py-2 rounded-full border border-accent/50 text-accent hover:bg-accent hover:text-white hover:shadow-[0_0_16px_rgba(6,182,212,0.4)] transition-all duration-300"
             >
-              Hire me
+              Let&apos;s build
             </button>
           </li>
           <li>
@@ -163,7 +163,7 @@ export default function Navbar() {
               onClick={() => { smoothScrollTo("contact"); setMenuOpen(false); }}
               className="inline-block text-sm px-5 py-2 rounded-full border border-accent/50 text-accent hover:bg-accent hover:text-white transition-all duration-300"
             >
-              Hire me
+              Let&apos;s build
             </button>
           </li>
         </ul>

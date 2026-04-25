@@ -8,10 +8,10 @@ export default function Skills() {
         <FadeIn>
           <div className="mb-14">
             <span className="text-xs font-medium tracking-widest text-accent uppercase">
-              Toolkit
+              Stack
             </span>
             <h2 className="mt-3 text-3xl sm:text-4xl font-bold text-text-primary tracking-tight">
-              Skills
+              My stack
             </h2>
           </div>
         </FadeIn>

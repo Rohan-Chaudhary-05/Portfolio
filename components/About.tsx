@@ -12,10 +12,10 @@ export default function About() {
           <FadeIn direction="left">
             <div className="sticky top-24">
               <span className="text-xs font-medium tracking-widest text-accent uppercase">
-                About
+                Approach
               </span>
               <h2 className="mt-3 text-3xl sm:text-4xl font-bold text-text-primary tracking-tight leading-snug">
-                Professional Summary
+                Why I build
               </h2>
             </div>
           </FadeIn>
@@ -32,9 +32,9 @@ export default function About() {
               {/* Quick facts */}
               <div className="mt-8 pt-8 border-t border-border grid sm:grid-cols-3 gap-6">
                 {[
-                  { label: "Placement year", value: "Roche" },
-                  { label: "Predicted grade", value: "1st" },
-                  { label: "Graduating", value: "2027" },
+                  { label: "Performance gains shipped", value: "80%" },
+                  { label: "Startup founded", value: "PlacementOS" },
+                  { label: "Research submitted to", value: "ASCO / ESMO" },
                 ].map((stat) => (
                   <div key={stat.label}>
                     <p className="text-2xl font-bold text-text-primary">{stat.value}</p>

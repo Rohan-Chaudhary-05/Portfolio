@@ -50,11 +50,11 @@ export default function Contact() {
               Contact
             </span>
             <h2 className="mt-3 text-3xl sm:text-4xl font-bold text-text-primary tracking-tight mb-4">
-              Let&rsquo;s work together
+              Let&rsquo;s build something
             </h2>
             <p className="text-base sm:text-lg text-text-secondary leading-relaxed mb-10">
-              I&rsquo;m open to internship opportunities, collaborations, and interesting
-              conversations. Whether you have a project in mind or just want to say hello — my
+              Have an idea worth building? I&rsquo;m open to partnerships, collaborations, and
+              interesting problems. Whether you want to work together or just compare notes — my
               inbox is always open.
             </p>
           </FadeIn>
