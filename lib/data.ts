@@ -19,7 +19,7 @@ export const projects: Project[] = [
   {
     title: "Stoneset.ai",
     description:
-      "Co-Founder & COO. Stoneset classifies AI systems against the EU AI Act — deterministically, with every decision traceable to a specific article, paragraph, and annex. No LLM guesswork. I run product and operations.",
+      "Stoneset classifies AI systems against the EU AI Act — deterministically, with every decision traceable to a specific article, paragraph, and annex.",
     tags: ["RegTech", "EU AI Act", "Co-Founder", "COO"],
   },
   {
@@ -51,7 +51,7 @@ export const timeline: TimelineEntry[] = [
     organisation: "Stoneset.ai",
     period: "2026 – Present",
     description:
-      "Co-founding Stoneset.ai. Leading product, strategy, and operations — building from zero with intent.",
+      "Deterministic EU AI Act compliance — classifying AI systems by risk tier with every conclusion traceable to a specific article. Responsible for product and operations.",
   },
   {
     type: "programme",
