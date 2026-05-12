@@ -13,6 +13,7 @@ export type Project = {
   description: string;
   tags: string[];
   link?: string;
+  comingSoon?: boolean;
 };
 
 export const projects: Project[] = [
@@ -33,6 +34,13 @@ export const projects: Project[] = [
     description:
       "An independent case study analysing Tesla's market position, business strategy, and competitive landscape using data-driven insights.",
     tags: ["Data Analysis", "Business Strategy", "Case Study", "EV Industry"],
+  },
+  {
+    title: "Spacecraft Anomaly Detection",
+    description:
+      "Comparative machine learning study on real NASA spacecraft telemetry — benchmarking classical, deep learning, and Transformer-based models against expert-labelled anomaly sequences, deployed as a mission-control style dashboard.",
+    tags: ["Anomaly Detection", "PyTorch", "NASA SMAP/MSL", "Time-Series ML", "Dashboard"],
+    comingSoon: true,
   },
 ];
 

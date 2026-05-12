@@ -16,14 +16,21 @@ export default function Projects() {
           </div>
         </FadeIn>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 items-stretch">
           {projects.map((project, i) => (
             <FadeIn key={project.title} delay={i * 90}>
               <article className="group h-full rounded-2xl p-6 flex flex-col border border-[rgba(6,182,212,0.12)] bg-[rgba(6,182,212,0.04)] backdrop-blur-sm hover:border-[rgba(6,182,212,0.35)] hover:bg-[rgba(6,182,212,0.08)] hover:-translate-y-1 hover:shadow-[0_8px_32px_rgba(6,182,212,0.13)] transition-all duration-300">
                 <div className="flex-1">
-                  <h3 className="font-semibold text-text-primary text-base mb-2 group-hover:text-accent transition-colors duration-200">
-                    {project.title}
-                  </h3>
+                  <div className="flex items-start justify-between gap-2 mb-2">
+                    <h3 className="font-semibold text-text-primary text-base group-hover:text-accent transition-colors duration-200">
+                      {project.title}
+                    </h3>
+                    {project.comingSoon && (
+                      <span className="shrink-0 text-[10px] font-medium tracking-wider uppercase px-2 py-0.5 rounded-full border border-accent/40 text-accent bg-accent/5">
+                        Coming soon
+                      </span>
+                    )}
+                  </div>
                   <p className="text-sm text-text-secondary leading-relaxed">
                     {project.description}
                   </p>
