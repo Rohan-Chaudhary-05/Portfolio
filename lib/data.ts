@@ -20,19 +20,19 @@ export const projects: Project[] = [
   {
     title: "Stoneset.ai",
     description:
-      "Stoneset classifies AI systems against the EU AI Act — deterministically, with every decision traceable to a specific article, paragraph, and annex.",
+      "Stoneset classifies AI systems against the EU AI Act — deterministically, with every decision traceable to a specific article, paragraph, and annex. Built for Series A/B AI startups navigating compliance.",
     tags: ["RegTech", "EU AI Act", "Co-Founder", "COO"],
   },
   {
     title: "AI MCED Chatbot",
     description:
-      "Fine-tuned an LLM at Roche for multi-cancer early detection. Authoring a research publication on a novel AI evaluation approach for MCED.",
+      "Fine-tuned an LLM at Roche for multi-cancer early detection, deployed as a POC. Authored a research abstract on AI evaluation approach for MCED.",
     tags: ["Python", "LLMs", "HuggingFace", "Fine-tuning", "Healthcare"],
   },
   {
     title: "Tesla Market & Strategy Analysis",
     description:
-      "An independent case study analysing Tesla's market position, business strategy, and competitive landscape using data-driven insights.",
+      "An independent case study analysing Tesla's market position, business strategy, and competitive landscape using data-driven insights — covering vehicle segments, manufacturing scale, and the broader EV industry trajectory.",
     tags: ["Data Analysis", "Business Strategy", "Case Study", "EV Industry"],
   },
   {
