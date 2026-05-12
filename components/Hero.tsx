@@ -3,7 +3,6 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { Download } from "lucide-react";
 import { personal } from "@/lib/data";
 
 const charVariants = {
@@ -55,7 +54,7 @@ export default function Hero() {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent opacity-60" />
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-accent" />
               </span>
-              Currently building
+              Currently on data scientist placement at Roche
             </span>
           </motion.div>
 
@@ -120,14 +119,12 @@ export default function Hero() {
             >
               See what I&apos;m building
             </button>
-            <a
-              href="/Rohan_Chaudhary_CV.pdf"
-              download
-              className="inline-flex items-center gap-2 px-7 py-3 rounded-full border border-border text-text-secondary text-sm font-medium hover:border-accent/50 hover:text-text-primary hover:shadow-[0_0_16px_rgba(6,182,212,0.2)] transition-all duration-300"
+            <button
+              onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}
+              className="px-7 py-3 rounded-full border border-border text-text-secondary text-sm font-medium hover:border-accent/50 hover:text-text-primary hover:shadow-[0_0_16px_rgba(6,182,212,0.2)] transition-all duration-300"
             >
-              <Download size={15} strokeWidth={2} />
-              Download CV
-            </a>
+              Get in touch
+            </button>
           </motion.div>
         </div>
 

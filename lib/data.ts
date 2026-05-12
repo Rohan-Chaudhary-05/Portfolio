@@ -1,6 +1,6 @@
 export const personal = {
   name: "Rohan Chaudhary",
-  tagline: "Co-Founder & AI Builder",
+  tagline: "Co-Founder & Data Scientist",
   bio: "",
   about: `I spent my placement year at Roche building AI tools that actually got used — OCR automation, a fine-tuned LLM, data pipelines that replaced manual processes people had been living with for years.\n\nNow I'm co-founding Stoneset.ai, a compliance tool for the EU AI Act. I run product and operations. We're early and building fast.`,
   email: "Rohan.sc.33@gmail.com",
